@@ -1,0 +1,16 @@
+body {
+	display:flex;
+	flex-direction: column;
+	background-color: #F2DFDA;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+	background-color: lightgrey;
+}	
+
+#grid-container {
+	display: grid;
+	background-color: white;
+}
