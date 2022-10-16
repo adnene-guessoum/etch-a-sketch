@@ -1,9 +1,13 @@
 
 const gridDiv = document.querySelector("#grid-container")
 
-const firstDiv = document.createElement("div")
-firstDiv.classList.toggle('grid-squares')
+for (let i = 0 ; i<=255; i++) {
 
-gridDiv.appendChild(firstDiv)
+const gridItems = document.createElement("div")
+gridItems.classList.toggle('grid-squares')
+gridDiv.appendChild(gridItems)
+
+}
+
 
 

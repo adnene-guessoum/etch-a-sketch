@@ -13,11 +13,12 @@ h1 {
 }	
 
 #grid-container {
-	height: 300px;
-	width: 300px;
+	height: 320px;
+	width: 320px;
 	display: grid;
-	grid-auto-rows: 50px;
-	grid-auto-columns: 50px;
+	box-sizing: border-box;
+	grid-template-columns: repeat(16, 20px);
+	grid-template-rows: repeat(16, 20px);
 	background-color: white;
 }
 
