@@ -29,5 +29,10 @@ function resetClass(obj) {
 const coloredItem = items.forEach( item => item.addEventListener("mouseover", e =>  switchClass(e.target)));
 
 const clearBtn = document.getElementById("clear");
-
 clearBtn.addEventListener("click", e => items.forEach(resetClass)); 
+
+const sizeBtn = document.getElementById("size");
+sizeBtn.addEventListener("click", function(e) {
+	askPopUp = prompt("what size grid do you need ? (max 100x100)");
+
+});
