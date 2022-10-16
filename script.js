@@ -9,5 +9,18 @@ gridDiv.appendChild(gridItems)
 
 }
 
+const items = gridDiv.querySelectorAll("div")
 
+function switchClass(obj) {
+/*
+	obj.classList.toggle('grid-squares');
+	obj.classList.toggle('color-switch')
+	*/
+
+	obj.classList.remove('grid-squares');
+	obj.classList.add('color-switch')
+
+}
+
+const coloredItem = items.forEach( item => item.addEventListener("mouseover", e =>  switchClass(e.target)));
 

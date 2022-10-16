@@ -25,3 +25,8 @@ h1 {
 .grid-squares {
 	border: solid black 1px;
 }
+
+.color-switch {
+	border: solid black 1px;
+	background-color: black;
+}
