@@ -17,13 +17,13 @@ h1 {
 	width: 320px;
 	display: grid;
 	box-sizing: border-box;
-	grid-template-columns: repeat(16, 20px);
-	grid-template-rows: repeat(16, 20px);
-	background-color: white;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
 }
 
 .grid-squares {
 	border: solid black 1px;
+	background-color: white;
 }
 
 .color-switch {
@@ -37,8 +37,3 @@ button  {
 	margin: 50px;
 	}
 
-#size {}
-
-#clear {
-
-}
